@@ -8,14 +8,6 @@ app.get('/', function (req, res) {
   res.sendFile(__dirname + '/index.html');
 });
 
-app.get('/cordova', function (req, res) {
-  res.sendFile(__dirname + '/cordova.html');
-});
-
-app.get('/cam', function (req, res) {
-  res.sendFile(__dirname + '/public/cam.html');
-});
-
 app.listen(3000, function () {
   console.log('listening on *:3000');
 });
