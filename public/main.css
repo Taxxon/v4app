@@ -19,7 +19,6 @@ pre { font-size: 2em; }
     /* css rules for breakpoints */
     main {
     	width: 100%;
-    	margin: 0px;
-    	background-color: lightblue;
+    	margin: 5px;
     }
 }
