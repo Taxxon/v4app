@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="sv">
+    <head> 
+        <title>Vecka 4</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>        
+    </head>
+<body>
+<main>
+    <h1>Vecka 4</h1>
+    <h2 onclick="showHide('intro');">Vad ska vi göra?</h2>
+    <div id="intro">
+        <h3>Mobila applikationer</h3>
+        <p>Wikipedia - A mobile application (or mobile app) is a software application designed to run on smartphones, tablet computers and other mobile devices.</p>
+        <p>Historia</p>
+        <p>Plattformar</p>
+        <p>Gränssnitt</p>
+        <p>Prova på, praktiskt arbetet</p>
+        <p>Redovisning och rapport</p>
+    </div>
+    <h2 onclick="showHide('hist');">Historia</h2>
+    <div id="hist">
+        <h3></h3>
+        <p>1996 Palm pilot</p>
+        <p>Nokia telefoner</p>
+        <p>3310</p>
+        <p>1996 8110 - Matrix telefonen, 4 rader text 13 tecken</p>
+        <p>WAP försök till internet, misslyckat</p>
+        <p>Teknisk utveckling, storlek, kraft, pris</p>
+        <p>2007 iPhone</p>
+        <p>iTunes app store 2008</p>
+        <p>2008 Android</p>
+        <p>2010 Windows phone</p>
+        <p>2010 iPad</p>
+    </div>
+    <h2 onclick="showHide('platt');">Plattformar - Introduktion</h2>
+    <div id="platt">
+        <h3>Native</h3>
+        <p>iOS - objetive C / swift</p>
+        <p>Mer samlad os version</p>
+        <p>Utveckling enbart genom Mac</p>
+        <p>Android - Java</p>
+        <p>Baserat på linux</p>
+        <p>81% share 2013</p>
+        <p>Många olika varianter</p>
+        <p>Andra</p>
+        <h3>Web</h3>
+        <p>jQuery Mobile</p>
+        <p>Alla mobilanpassade webbtjänster</p>
+        <h3>Hybrid</h3>
+        <p>Cordova - webbteknik</p>
+        <p>Xamarin - Mono C#</p>
+    </div>
+    <h2 onclick="showHide('plattn');">Plattformar - Native</h2>
+    <div id="plattn">
+        <h3>Vad</h3>
+        <p>Appar skapade för ett bestämt operativsystem</p>
+        <p>Går enbart att köra på den valda plattformen</p>
+        <h3>Hur</h3>
+        <p>iOS, måste ha en apple maskin att utveckla ifrån</p>
+        <p>Android, android studio - Java</p>
+        <p>osv.</p>
+        <h3>Varför</h3>
+        <p>Riktar in sig på en särskild plattform</p>
+        <p>UX</p>
+        <p>Möjlighet att leverera som inte går med web / hybrider</p>
+        <h3>Fördelar</h3>
+        <p>Telefonernas funktionalitet kommer alltid först till native appar</p>
+        <p>Ofta bättre funktion offline</p>
+        <p>Lagring, säkerhet, enkelhet</p>
+        <p>Telefonens resurser är tillgängligare</p>
+        <p>Närvaro i plat store, itunes osv.</p>
+        <h3>Nackdelar</h3>
+        <p>Utvecklingskostnader</p>
+        <p>Kontrollerat av plattformen och dess ägare</p>
+        <p>Svår konkurrens i appstore</p>
+        <p>Appen kräver ofta tillgång till din telefon, någon som webbplatsen ofta inte kan</p>
+        <p>Måste laddas ned, installeras och uppdateras</p>
+    </div>
+    <h2 onclick="showHide('plattw');">Plattformar - Web</h2>
+    <div id="plattw">
+        <h3>Vad</h3>
+        <p>Mobilanpassade webbplatser, eller webb designad för mobilen</p>
+        <h3>Hur</h3>
+        <p>Existerande webbplats</p>
+        <p>Samma språk som på webben, html, css, js</p>
+        <p>jQuery mobile</p>
+        <h3>Varför</h3>
+        <p>Flexibilitet, anpassning</p>
+        <p>Kostnad</p>
+        <h3>Fördelar</h3>
+        <p>Samma kodbas</p>
+        <p>Existerande spridning</p>
+        <p>Modern webbdesign bäst för alla</p>
+        <h3>Nackdelar</h3>
+        <p>Ingen närvaro i appstore</p>
+        <p>Telefonenes resurser är svårare att arbeta med / inte tillgängliga</p>
+        <p>UX är inte native</p>
+    </div>
+    <h2 onclick="showHide('platth');">Plattformar - Hybrid</h2>
+    <div id="platth">
+        <h3>Vad</h3>
+        <p>"Wrappers" för en annan teknik som låter dig skapa appar för de olika systemen</p>
+        <p>Din app körs som native, men delar kodbas mellan flera plattformar</p>
+        <h3>Hur</h3>
+        <p>Ett antal lösningar för detta</p>
+        <p>Cordova, telerik, xamarin, unity</p>
+        <h3>Varför</h3>
+        <p>För att enkelt kunna få ut appar på flera plattformar med native fördelar</p>
+        <h3>Fördelar</h3>
+        <p>Närvaro i appstore</p>
+        <p>Delad kodbas</p>
+        <p>Kan "återanvända" en väl designad webbplats, dvs. samma teknik som web-app</p>
+        <h3>Nackdelar</h3>
+        <p>Saknar native UX</p>
+        <p>Beroende av wrapperlösning</p>
+        <p>En del telefonspecifik teknik är inte tillgänglig</p>
+    </div>
+    <h2 onclick="showHide('grs');">Gränssnitt</h2>
+    <div id="grs">
+        <p><a href="https://design.google.com/">Google design docs</a></p>
+        <p><a href="https://developer.apple.com/ios/human-interface-guidelines/overview/design-principles/">iOS design docs</a></p>
+        <p><a href="http://getbootstrap.com/">Bootstrap</a></p>
+    </div>
+    <h2 onclick="showHide('pra');">Praktiskt arbete</h2>
+    <div id="pra">
+        <h3>Program</h3>
+        <p><a href="https://nodejs.org/en/">Node</a>, <a href="https://cordova.apache.org/">Cordova</a></p>
+        <p><a href="https://developer.android.com">Android studio</a></p>
+        <p>JDK, Android SDK</p>
+        <p><a href="https://www.visualstudio.com/">Visual studio</a></p>
+        <p><a href="https://www.xamarin.com/">Xamarin</a></p>
+        <p>JDK, Android SDK, iOS sim</p>
+        <p>Unity</p>
+        <p><a href="https://resilientwebdesign.com/">Resilient webdesign</a></p>
+        <p>Service workers</p> <!--https://adactio.com/journal/11730-->
+        <p><a href="https://jquerymobile.com/">jQuery Mobile</a></p><!-- http://www.hongkiat.com/blog/build-websites-apps-jquery-mobile/-->
+        <p><a href="https://devcenter.heroku.com/articles/getting-started-with-nodejs">Node + Heroku</a></p>
+        <h3>Path</h3>
+        <p>Kontrollpanelen -> System och säkerhet -> System</p>
+        <p>Avancerade systeminställningar -> Miljövariabler</p>
+        <p><a href="https://msdn.microsoft.com/en-us/powershell/mt173057.aspx">Windows Powershell</a></p>
+        <h3>Skapa en app!</h3>
+        <p>Arbeta med valfri plattform, utgå från språk</p>
+        <p>Enskilt eller liten grupp</p>
+        <p>Planering. Vad ska appen göra. Utgå från Hello world exempel. Lägg till funktionalitet.</p>
+        <p>Kom ihåg lista, enkel kamerafunktion, porta något tidigare arbete?</p>
+        <p>Presentera planering. Teknik, mål, syfte. Skriv ned.</p>
+    </div>
+    <h2 onclick="showHide('redo');">Redovisning</h2>
+    <div id="redo">
+        <h3>10-15 minuter per grupp/person</h3>
+        <p>Visa upp appen</p>
+        <p>Redovisa teknik(er)</p>
+        <p>Deployment</p>
+        <p>Utveckling, arbete, tester</p>
+        <p>Ta upp eventuella licenser, relevanta lagar</p>
+    </div>    
+</main>
+<script src="main.js"></script>
+</body>
+</html>
