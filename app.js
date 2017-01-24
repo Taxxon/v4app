@@ -5,13 +5,12 @@ app.use(express.static('public'));
 
 // servera statiskt html sida
 app.get('/', function (req, res) {
-  res.sendFile(__dirname + '/index.html');
+  res.sendFile(__dirname + '/public/index.html');
 });
 
-app.get('/heroku', function (req, res) {
-  res.sendFile(__dirname + '/heroku.html');
-});
+//var port = process.env.PORT;
+var port = 3000;
 
-app.listen(process.env.PORT, function () {
-  console.log('listening on ' + process.env.PORT);
+app.listen(port, function () {
+  console.log('listening on ' + port);
 });
