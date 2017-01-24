@@ -8,6 +8,10 @@ app.get('/', function (req, res) {
   res.sendFile(__dirname + '/index.html');
 });
 
+app.get('/heroku', function (req, res) {
+  res.sendFile(__dirname + '/heroku.html');
+});
+
 app.listen(process.env.PORT, function () {
   console.log('listening on ' + process.env.PORT);
 });
